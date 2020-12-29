@@ -1,0 +1,116 @@
+body{
+    margin:0;
+    background-color: #eee;
+}
+
+
+ul:first-child{                 /* Navigation*/
+    text-align: left;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 100px;
+}
+
+a:link{                         /*Linkunterstrich weg farbe?*/ 
+    color: #659d89;
+    text-decoration: none;
+}
+
+ul li{                          /* Navigation Horizontal*/
+    display: inline;
+}
+
+
+header h1{
+    color: #659d89;
+    margin-top:200px;
+
+}
+
+header h2{
+    margin-bottom: 300px;       /*Abstand zwischen h2 und Icons*/
+}
+
+header h1,h2{
+    font-family: 'roboto';
+    font-size: 50px;
+    padding-left: 100px;
+}
+
+
+ol,li{
+    text-align: right;          /*Twitter,fb,insta-icons*/
+    list-style: none;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+h3{                             /*text mit pfeil*/
+    text-align: left;
+    font-family: 'roboto';
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+
+section h1{
+    font-family: 'roboto';
+    font-size:20px;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 100px;
+    border-top: 2px solid #666;
+}
+
+section p{
+    font-family: 'roboto';
+    font-size:12px;
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+section{
+    text-align: center;        /*Gifs in die Mitte*/
+}
+
+
+div{
+    display: inline-block;      /*Icons Horizontal*/
+    text-align: center;                 
+    margin:20px;
+}
+
+img:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+
+main{
+    margin:0;
+    padding:0;
+}
+
+main h3{
+    font-size: 30px;
+    font-family: 'roboto';
+    border-top: 2px solid #666;
+    padding-left: 100px;
+    padding-top: 100px;
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-right:0px;
+}
+
+main section :nth-of-type(1){           /*erstes Bild*/
+    padding-right: 350px;
+    text-align: center;
+}
+
+main section :nth-of-type(2){           /*zweites Bild*/
+    margin-left: 250px;
+    text-align: center;
+}
+
+
